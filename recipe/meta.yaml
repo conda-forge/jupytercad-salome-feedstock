@@ -1,5 +1,5 @@
 {% set name = "jupytercad-salome" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupytercad_salome-{{ version }}.tar.gz
-  sha256: b11b799e4864bf68c75023367c196246e749df1f3de071046994f38c841d7ffe
+  sha256: 10e6dbe0eb27dc1079b2f46254f2e3e6301b9a88185c9cfbef703b6a01b48a87
 
 build:
   noarch: python
